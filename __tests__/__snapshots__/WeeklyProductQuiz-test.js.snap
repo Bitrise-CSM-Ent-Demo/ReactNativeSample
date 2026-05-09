@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`WeeklyProductQuiz matches snapshot 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#007AFF",
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 40,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#fff",
+          "fontSize": 22,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Weekly Product Quiz
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#cce4ff",
+          "fontSize": 14,
+          "marginTop": 4,
+        }
+      }
+    >
+      Week 
+      19
+    </Text>
+  </View>
+  <ScrollView
+    contentContainerStyle={
+      {
+        "padding": 20,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "marginBottom": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#888",
+            "fontSize": 13,
+            "textAlign": "right",
+          }
+        }
+      >
+        Question 
+        1
+         of 
+        5
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 18,
+          "fontWeight": "600",
+          "lineHeight": 26,
+          "marginBottom": 24,
+        }
+      }
+    >
+      Which platform does Bitrise primarily support?
+    </Text>
+    <View
+      style={
+        {
+          "marginBottom": 20,
+        }
+      }
+    >
+      <TouchableHighlight
+        onPress={[Function]}
+        style={
+          {
+            "backgroundColor": "#fff",
+            "borderColor": "#ddd",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "marginBottom": 10,
+            "padding": 14,
+          }
+        }
+        underlayColor="#ddd"
+      >
+        <Text
+          style={
+            {
+              "color": "#333",
+              "fontSize": 15,
+            }
+          }
+        >
+          Mobile CI/CD
+        </Text>
+      </TouchableHighlight>
+      <TouchableHighlight
+        onPress={[Function]}
+        style={
+          {
+            "backgroundColor": "#fff",
+            "borderColor": "#ddd",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "marginBottom": 10,
+            "padding": 14,
+          }
+        }
+        underlayColor="#ddd"
+      >
+        <Text
+          style={
+            {
+              "color": "#333",
+              "fontSize": 15,
+            }
+          }
+        >
+          Web hosting
+        </Text>
+      </TouchableHighlight>
+      <TouchableHighlight
+        onPress={[Function]}
+        style={
+          {
+            "backgroundColor": "#fff",
+            "borderColor": "#ddd",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "marginBottom": 10,
+            "padding": 14,
+          }
+        }
+        underlayColor="#ddd"
+      >
+        <Text
+          style={
+            {
+              "color": "#333",
+              "fontSize": 15,
+            }
+          }
+        >
+          Database management
+        </Text>
+      </TouchableHighlight>
+      <TouchableHighlight
+        onPress={[Function]}
+        style={
+          {
+            "backgroundColor": "#fff",
+            "borderColor": "#ddd",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "marginBottom": 10,
+            "padding": 14,
+          }
+        }
+        underlayColor="#ddd"
+      >
+        <Text
+          style={
+            {
+              "color": "#333",
+              "fontSize": 15,
+            }
+          }
+        >
+          Email marketing
+        </Text>
+      </TouchableHighlight>
+    </View>
+  </ScrollView>
+</View>
+`;

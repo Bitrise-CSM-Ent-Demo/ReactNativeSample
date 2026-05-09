@@ -3,9 +3,34 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
   },
   "dependencies": {
     "react-native": "^0.19.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.5",
+    "@babel/preset-react": "^7.28.5",
+    "babel-jest": "^30.4.1",
+    "babel-preset-react-native": "^4.0.1",
+    "jest": "^30.4.2",
+    "react-test-renderer": "^19.2.6"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native)/)"
+    ],
+    "moduleNameMapper": {
+      "^React$": "<rootDir>/node_modules/react",
+      "^react-native$": "<rootDir>/__mocks__/react-native.js"
+    },
+    "globals": {
+      "__DEV__": true
+    }
   }
 }
