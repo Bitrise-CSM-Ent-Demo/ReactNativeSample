@@ -7,6 +7,6 @@ import React, {
   AppRegistry,
 } from 'react-native';
 
-const WeeklyProductQuiz = require('./WeeklyProductQuiz');
+const SouthwestFlightTracker = require('./SouthwestFlightTracker');
 
-AppRegistry.registerComponent('ReactNativeSample', () => WeeklyProductQuiz);
+AppRegistry.registerComponent('ReactNativeSample', () => SouthwestFlightTracker);
